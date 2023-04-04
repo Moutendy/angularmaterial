@@ -1,0 +1,47 @@
+::ng-deeg.mat-mdc-form-field-focus-overlay {
+    background-color: white !important;
+    height: 200px !important;
+    width: 330px!important;
+}
+
+::ng-deep.mat-mdc-text-field-wrapper {
+    background-color: white !important;
+    border-radius: 6px;
+    border: 1px solid #f5f5f5;
+}
+
+textarea {
+    height: 200px !important;
+    width: 95%!important;
+}
+
+.champs {
+    display: inline;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 30% !important;
+    margin: 1%;
+}
+
+.desciption {
+    height: 25%;
+    width: 25% !important;
+    position: relative;
+    top: 84px;
+}
+
+mat-form-field {
+    width: 30% !important;
+    margin: 1%;
+}
+
+mat-label {
+    width: 80% !important;
+}
