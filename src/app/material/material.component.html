@@ -1,34 +1,131 @@
-<form class="champs example-form">
-    <mat-label>Intitulé</mat-label>
+<form>
 
-    <mat-form-field class="example-full-width">
-        <input matInput placeholder="Intitulé">
-    </mat-form-field>
+    <mat-card>
+        <mat-card-content>
+            <fieldset class="reset">
+                <legend class="reset">Ajouter une nouvelle formation</legend>
+                <div class="example-form">
+                    <div class="row">
 
-
-
-    <mat-label>Code</mat-label>
-    <mat-form-field class="example-full-width">
-        <input matInput placeholder="Code">
-    </mat-form-field>
-
-
-    <mat-label>Description</mat-label>
-    <mat-form-field class="example-full-width desciption">
-
-        <textarea matInput placeholder="Description..."></textarea>
-    </mat-form-field>
+                        <div class="col-md-6">
+                            <mat-form-field class="example-full-width">
+                                <mat-label>Intitulé</mat-label>
+                                <input matInput placeholder="Intitué" value="Intitule">
+                            </mat-form-field>
+                        </div>
 
 
-    <mat-label>Langue</mat-label>
-    <mat-form-field class="example-full-width">
+                        <div class="col-md-6">
+                            <mat-form-field class="example-full-width">
+                                <mat-label>Code</mat-label>
+                                <input matInput placeholder="Code" value="Code">
+                            </mat-form-field>
+                        </div>
 
-        <mat-select>
-            <mat-option *ngFor="let food of foods" [value]="food.value">
-                {{food.viewValue}}
-            </mat-option>
-        </mat-select>
-    </mat-form-field>
 
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <mat-form-field class="example-full-width">
+                                <mat-label>Description</mat-label>
+                                <textarea matInput placeholder="Description"></textarea>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-6">
+                            <mat-form-field appearance="fill" class="example-full-width">
+                                <mat-label>choix thématique</mat-label>
+                                <mat-select>
+                                    <mat-option *ngFor="let food of foods" [value]="food.value">
+                                        {{food.viewValue}}
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <mat-form-field appearance="fill" class="example-full-width">
+                                <mat-label>choix thématique</mat-label>
+                                <mat-select>
+                                    <mat-option *ngFor="let food of foods" [value]="food.value">
+                                        {{food.viewValue}}
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-10">
+                            <section>
+                                <div class="example-label">Tags</div>
+                                <div class="example-button-row">
+                                    <button mat-raised-button>Basic</button>
+                                    <button mat-raised-button color="primary">Primary</button>
+                                    <button mat-raised-button>cloud</button>
+                                    <button mat-raised-button>it</button>
+                                    <button mat-raised-button>phishing</button>
+                                    <button mat-raised-button>cloud</button>
+                                    <button mat-raised-button>it</button>
+                                    <button mat-raised-button>phishing</button>
+                                    <button mat-raised-button>cloud</button>
+                                    <button mat-raised-button color="primary">it</button>
+                                    <button mat-raised-button>phishing</button>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <mat-form-field appearance="fill" class="example-full-width">
+                                <mat-label>type du support</mat-label>
+                                <mat-select>
+                                    <mat-option *ngFor="let food of foods" [value]="food.value">
+                                        {{food.viewValue}}
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <mat-form-field class="example-full-width">
+                                <mat-label>Lien d'hebergement</mat-label>
+                                <textarea matInput placeholder="Description"></textarea>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-6">
+                            <section class="example-full-width">
+
+                                <div class="example-button-row">
+
+                                    <a class="example-full-width" mat-raised-button>Fichier à charger</a>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+
+                </div>
+            </fieldset>
+        </mat-card-content>
+
+    </mat-card>
+    <section class="section">
+
+        <div class="example-button-row">
+
+            <button mat-raised-button color="warn">Annuler</button>
+
+            <button mat-raised-button color="primary">Valider</button>
+        </div>
+    </section>
 
 </form>
