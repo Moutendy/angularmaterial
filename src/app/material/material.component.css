@@ -1,83 +1,83 @@
-                                                                                                           ::ng-deeg.mat-mdc-form-field-focus-overlay {
-                                                                                                              background-color: white !important;
-                                                                                                          }
+                                                                                                                 ::ng-deeg.mat-mdc-form-field-focus-overlay {
+                                                                                                                    background-color: white !important;
+                                                                                                                }
 
-                                                                                                           ::ng-deep.mat-mdc-text-field-wrapper {
-                                                                                                              background-color: white !important;
-                                                                                                              border-radius: 6px;
-                                                                                                              border: 1px solid #f5f5f5;
-                                                                                                          }
+                                                                                                                 ::ng-deep.mat-mdc-text-field-wrapper {
+                                                                                                                    background-color: white !important;
+                                                                                                                    border-radius: 6px;
+                                                                                                                    border: 1px solid #f5f5f5;
+                                                                                                                }
 
-                                                                                                          .section {
-                                                                                                              position: relative;
-                                                                                                              left: 42%;
-                                                                                                              top: 10%;
-                                                                                                              margin: 1%
-                                                                                                          }
+                                                                                                                .section {
+                                                                                                                    position: relative;
+                                                                                                                    left: 42%;
+                                                                                                                    top: 10%;
+                                                                                                                    margin: 1%
+                                                                                                                }
 
-                                                                                                          form {
-                                                                                                              position: relative;
-                                                                                                              top: 4%;
-                                                                                                          }
+                                                                                                                form {
+                                                                                                                    position: relative;
+                                                                                                                    top: 1%;
+                                                                                                                }
 
-                                                                                                          mat-card {
-                                                                                                              display: flex;
-                                                                                                              width: 70%;
-                                                                                                              position: relative;
-                                                                                                              left: 15%;
-                                                                                                              top: 7%;
-                                                                                                              box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-                                                                                                          }
+                                                                                                                mat-card {
+                                                                                                                    display: flex;
+                                                                                                                    width: 70%;
+                                                                                                                    position: relative;
+                                                                                                                    left: 15%;
+                                                                                                                    top: 7%;
+                                                                                                                    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+                                                                                                                }
 
-                                                                                                          .example-form {
-                                                                                                              width: 100%;
-                                                                                                          }
+                                                                                                                .example-form {
+                                                                                                                    width: 100%;
+                                                                                                                }
 
-                                                                                                          .example-full-width {
-                                                                                                              width: 100%;
-                                                                                                          }
+                                                                                                                .example-full-width {
+                                                                                                                    width: 100%;
+                                                                                                                }
 
-                                                                                                          .file {
-                                                                                                              width: 400px;
-                                                                                                          }
+                                                                                                                .file {
+                                                                                                                    width: 400px;
+                                                                                                                }
 
-                                                                                                          .reset {
-                                                                                                              all: revert;
-                                                                                                              font-size: 1.2em;
-                                                                                                              font-weight: bold;
-                                                                                                              margin-bottom: 10px;
-                                                                                                          }
-                                                                                                          /*les boutons*/
+                                                                                                                .reset {
+                                                                                                                    all: revert;
+                                                                                                                    font-size: 1.2em;
+                                                                                                                    font-weight: bold;
+                                                                                                                    margin-bottom: 10px;
+                                                                                                                }
+                                                                                                                /*les boutons*/
 
-                                                                                                          section {
-                                                                                                              display: table;
-                                                                                                          }
+                                                                                                                section {
+                                                                                                                    display: table;
+                                                                                                                }
 
-                                                                                                          .example-label {
-                                                                                                              display: table-cell;
-                                                                                                              font-size: 14px;
-                                                                                                              margin-left: 10px;
-                                                                                                              min-width: 120px;
-                                                                                                              font-weight: bold;
-                                                                                                          }
+                                                                                                                .example-label {
+                                                                                                                    display: table-cell;
+                                                                                                                    font-size: 14px;
+                                                                                                                    margin-left: 10px;
+                                                                                                                    min-width: 120px;
+                                                                                                                    font-weight: bold;
+                                                                                                                }
 
-                                                                                                          .example-button-row {
-                                                                                                              display: table-cell;
-                                                                                                              max-width: 600px;
-                                                                                                          }
+                                                                                                                .example-button-row {
+                                                                                                                    display: table-cell;
+                                                                                                                    max-width: 600px;
+                                                                                                                }
 
-                                                                                                          .example-button-row .mat-mdc-button-base {
-                                                                                                              margin: 8px 8px 8px 0;
-                                                                                                          }
+                                                                                                                .example-button-row .mat-mdc-button-base {
+                                                                                                                    margin: 8px 8px 8px 0;
+                                                                                                                }
 
-                                                                                                          .example-flex-container {
-                                                                                                              display: flex;
-                                                                                                              justify-content: space-between;
-                                                                                                              flex-wrap: wrap;
-                                                                                                          }
+                                                                                                                .example-flex-container {
+                                                                                                                    display: flex;
+                                                                                                                    justify-content: space-between;
+                                                                                                                    flex-wrap: wrap;
+                                                                                                                }
 
-                                                                                                          .example-button-container {
-                                                                                                              display: flex;
-                                                                                                              justify-content: center;
-                                                                                                              width: 120px;
-                                                                                                          }
+                                                                                                                .example-button-container {
+                                                                                                                    display: flex;
+                                                                                                                    justify-content: center;
+                                                                                                                    width: 120px;
+                                                                                                                }
